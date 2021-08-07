@@ -1,0 +1,108 @@
+* {
+  outline: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  margin: 30px 0 0 0;
+}
+
+h3,h4 {
+  margin: 30px 0 15px 0;
+}
+
+body {
+  background-color:#f5f5f5 ;
+  font-family: Arial;
+}
+
+.App {
+  margin: 0 auto;
+  width: 70%;
+  border-collapse: collapse;
+}
+
+.form-container {
+  margin: 0 auto;
+  background-color:#eaebef;
+  border: 1.5px solid #e0e0e0;
+  border-radius: 5px;
+}
+
+.form-row {
+  display:flex;
+  align-items: flex-end;
+  margin: 10px 0;
+  justify-content: space-evenly;
+}
+
+.form-row button {
+  width: 100%;
+  background-color: #18b594;
+  border-color: #18b594;
+}
+
+.form-row button:hover {
+  background-color: #148a70;
+  border-color: #148a70;
+}
+
+.form-row button:active, 
+.form-row button:focus {
+  background-color: #18b594;
+  border-color: #18b594;
+}
+
+
+.form-row div {
+  width: 30%;
+}
+
+.form-row div:nth-child(3)  {
+  width: 15%;
+}
+
+.form-row div:nth-child(4) {
+  width: 15%;
+}
+
+.rented-bike, .available-bike {
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color:#ffffff;
+  border: 1.5px solid #e0e0e0;
+  border-radius: 5px;
+  margin-bottom:15px;
+}
+
+.rented-bike div, .available-bike div {
+  margin: 15px 0;
+  width: 46%;
+  display:flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.rented-bike p , .available-bike p {
+  margin: 15px 0;
+  width: 46%;
+  display:flex;
+  justify-content: flex-start;
+}
+
+.rented-bike button {
+  padding: 10px 23px;
+}
+
+.available-bike button {
+  padding: 10px 40px;
+  margin-left: 15px;
+}
+
+
+
+
+
